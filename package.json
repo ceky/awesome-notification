@@ -1,12 +1,10 @@
 {
-  "name": "so-safe",
-  "version": "0.0.0",
+  "name": "awesome-alert",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
