@@ -1,0 +1,50 @@
+.btn:hover {
+  background-size: 4px 50px;
+}
+
+.btn-success {
+  background: linear-gradient(
+    to bottom,
+    var(--successColorLight) 0%,
+    var(--successColorLight) 100%
+  );
+  color: var(--successColorDark);
+}
+
+.btn-info {
+  background: linear-gradient(
+    to bottom,
+    var(--infoColorLight) 0%,
+    var(--infoColorLight) 100%
+  );
+  color: var(--infoColorDark);
+}
+
+.btn-warning {
+  background: linear-gradient(
+    to bottom,
+    var(--warningColorLight) 0%,
+    var(--warningColorLight) 100%
+  );
+  color: var(--warningColorDark);
+}
+
+.btn-error {
+  background: linear-gradient(
+    to bottom,
+    var(--errorColorLight) 0%,
+    var(--errorColorLight) 100%
+  );
+  color: var(--errorColorDark);
+}
+
+.btn {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+  transition: background-size 0.3s;
+}

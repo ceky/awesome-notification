@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+:root {
+  --mainColor: #ff9800;
+
+  --errorColorLight: rgb(253, 232, 232);
+  --errorColorDark: rgb(200, 30, 30);
+  --infoColorLight: rgb(225, 239, 254);
+  --infoColorDark: rgb(26, 86, 219);
+  --successColorLight: rgb(222, 247, 236);
+  --successColorDark: rgb(4, 108, 78);
+  --warningColorLight: rgb(253, 246, 178);
+  --warningColorDark: rgb(142, 75, 16);
+}

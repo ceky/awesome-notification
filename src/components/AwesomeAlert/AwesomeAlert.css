@@ -1,0 +1,55 @@
+.alert-container {
+  padding: 0.5rem;
+  padding-left: 3.5rem;
+  color: black;
+  border: 3px solid;
+  position: relative;
+}
+
+.alert-title {
+  text-transform: capitalize;
+}
+
+.alert-success {
+  border-color: var(--successColorDark);
+  background-color: var(--successColorLight);
+}
+
+.alert-info {
+  border-color: var(--infoColorDark);
+  background-color: var(--infoColorLight);
+}
+
+.alert-warning {
+  border-color: var(--warningColorDark);
+  background-color: var(--warningColorLight);
+}
+
+.alert-error {
+  border-color: var(--errorColorDark);
+  background-color: var(--errorColorLight);
+}
+
+.close-icon {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  cursor: pointer;
+}
+
+.gap-small {
+  margin-bottom: 0.2rem;
+}
+
+.gap-medium {
+  margin-bottom: 0.7rem;
+}
+
+.gap-large {
+  margin-bottom: 1.5rem;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
