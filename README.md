@@ -1,3 +1,7 @@
+### About
+
+Two components `AwesomeAlert` and `AwesomeModal` built with React and Typescript.
+
 ### Installation guide
 
 1. Install the dependencies
